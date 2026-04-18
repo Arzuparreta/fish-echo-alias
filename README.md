@@ -45,20 +45,20 @@ substitution when you want the value on stdout or in a variable.
 **Canonical helper** (matches the project name):
 
 ```fish
-alias desktop-ruben='100.91.167.48'
+alias desktop='100.91.167.48'
 
-echo_alias desktop-ruben
+echo_alias desktop
 # → 100.91.167.48
 
-echo (echo_alias desktop-ruben)
+echo (echo_alias desktop)
 # same line on stdout, for piping / variables
 ```
 
 **Bash-style** (requires this plugin’s `alias` ahead of fish’s on `fish_function_path`):
 
 ```fish
-alias desktop-ruben='100.91.167.48'
-alias desktop-ruben
+alias desktop='100.91.167.48'
+alias desktop
 # → 100.91.167.48
 ```
 
